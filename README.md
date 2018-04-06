@@ -8,3 +8,10 @@ vagrant up
 ```
 
 and then visit http://localhost:8080 to view the results
+
+## Contents
+
+`top.sls` - entry point for Salt config
+`webserver/` - config for Nginx
+`bootstrap/salt.sh` - installs Salt and configures it to run on a single node
+`Vagrantfile` - configures VM using Vagrant CLI tool
